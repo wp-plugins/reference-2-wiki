@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-25 23:49+0200\n"
+"PO-Revision-Date: 2010-09-26 00:03+0100\n"
+"Last-Translator: Philipp Kraus <philipp.kraus@flashpixx.de>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../reference2wiki.php:166
+msgid "Configuration and Usage"
+msgstr "Konfiguration und Benutzung"
+
+#: ../reference2wiki.php:167
+msgid "If you like the plugin and want to support my work, I'd appreciate a donation through the following link very much. A donation encouraged me to develop my work further and to thank you again and again so the community."
+msgstr "Falls Ihnen das Plugin gefällt und Sie möchten meine Arbeit unterstützen, würde ich mich sehr über eine Spende freuen. Mit der Spende unterstützen Sie meine weitere Arbeit und der Dank geht damit auch an die Community"
+
+#: ../reference2wiki.php:174
+msgid "Usage"
+msgstr "Konfiguration"
+
+#: ../reference2wiki.php:175
+msgid "The call of the search term for Wikipedia to be carried out as described in MediaWiki in double brackets [[keyword]]. Optionally, the text can be specified to display [[search | display text]] or a deviation of the default language in the form of [[language | search | display text]] will be carried out. If the second parameter (Wikipedia keyword) is empty, is used to display text, thus [[language | | display text]] is identical to [[language | display text | display text]]. The language is in the two typical abbreviations such as en, de, fr, etc. specified"
+msgstr "Der Ausfruf des Suchbegriffes für Wikipedia wird wie für MediaWiki üblich in doppelten eckigen Klammern [[Suchbegriff]] geschrieben. Optional kann der Text für die Anzeige angegeben werden [[Suchbegriff | Anzeigetext]] oder die Standardsprache kann mit [[Sprache | Suchbegriff | Anzeigetext]] geändert werden. Wenn der zweite Parameter (Suchbegriff) leer ist, wird der Anzeigetext als Suchbegriff verwenden und ist damit identisch mit dem Aufruf [[Sprache | Anzeigetext | Anzeigetext]]. Die Sprache wird mit den zwei typischen Abkürzungen wie en, de, fr, etc. angegeben."
+
+#: ../reference2wiki.php:192
+msgid "default search language"
+msgstr "Standard Sprache für die Suche"
+
+#: ../reference2wiki.php:236
+msgid "css class for link"
+msgstr "CSS Klasse für den Link"
+
+#: ../reference2wiki.php:237
+msgid "text show before link"
+msgstr "Text vor dem Link"
+
+#: ../reference2wiki.php:238
+msgid "text show after link"
+msgstr "Text nach dem Link"
+
+#: ../reference2wiki.php:239
+msgid "link target"
+msgstr "Ziel des Links"
+
+#: ../reference2wiki.php:242
+msgid "same window"
+msgstr "gleiches Fenster"
+
+#: ../reference2wiki.php:243
+msgid "new window / tab"
+msgstr "neues Fenster / Tab"
+
