@@ -3,7 +3,7 @@ Contributors: flashpixx
 Tags: wikipedia, reference, link, wiki
 Requires at least: 2.7
 Tested up to: 3.0.1
-Stable tag: 01
+Stable tag: 0.1
 License: GPLv3
 
 Creates links to Wikipedia with different languages
