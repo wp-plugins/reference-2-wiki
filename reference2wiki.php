@@ -4,7 +4,6 @@ Plugin Name: Reference 2 Wiki
 Plugin URI: http://wordpress.org/extend/plugins/reference-2-wiki/
 Author URI: http://flashpixx.de/2010/02/wordpress-plugin-reference-2-wiki/
 Description: The plugin allows to add references to Wikipedia
-Version: 0.1
 Stable tag: 0.1
 Tested up to: 3.4
 Author: flashpixx
