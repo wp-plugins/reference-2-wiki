@@ -1,24 +1,35 @@
 <?php
-/** 
- * #########################################################################
- * # GPL License                                                           #
- * #                                                                       #
- * # This file is part of the Wordpress Reference-2-Wiki plugin.           #
- * # Copyright (c) 2012, Philipp Kraus, <philipp.kraus@flashpixx.de>       #
- * # This program is free software: you can redistribute it and/or modify  #
- * # it under the terms of the GNU General Public License as published by  #
- * # the Free Software Foundation, either version 3 of the License, or     #
- * # (at your option) any later version.                                   #
- * #                                                                       #
- * # This program is distributed in the hope that it will be useful,       #
- * # but WITHOUT ANY WARRANTY; without even the implied warranty of        #
- * # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         #
- * # GNU General Public License for more details.                          #
- * #                                                                       #
- * # You should have received a copy of the GNU General Public License     #
- * # along with this program.  If not, see <http://www.gnu.org/licenses/>. #
- * #########################################################################
-**/
+/*
+Plugin Name: Reference 2 Wiki
+Plugin URI: http://wordpress.org/extend/plugins/reference-2-wiki/
+Author URI: http://flashpixx.de/2010/02/wordpress-plugin-reference-2-wiki/
+Description: The plugin allows to add references to Wikipedia
+Version: 0.1
+Stable tag: 0.1
+Tested up to: 3.4
+Author: flashpixx
+License: GPLv3
+
+
+#########################################################################
+# GPL License                                                           #
+#                                                                       #
+# This file is part of the Wordpress Reference-2-Wiki plugin.           #
+# Copyright (c) 2012, Philipp Kraus, <philipp.kraus@flashpixx.de>       #
+# This program is free software: you can redistribute it and/or modify  #
+# it under the terms of the GNU General Public License as published by  #
+# the Free Software Foundation, either version 3 of the License, or     #
+# (at your option) any later version.                                   #
+#                                                                       #
+# This program is distributed in the hope that it will be useful,       #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of        #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         #
+# GNU General Public License for more details.                          #
+#                                                                       #
+# You should have received a copy of the GNU General Public License     #
+# along with this program.  If not, see <http://www.gnu.org/licenses/>. #
+#########################################################################
+*/
 
 
 // stop direct call
