@@ -3,7 +3,7 @@ Contributors: flashpixx
 Tags: wikipedia, reference, link, wiki
 Requires at least: 2.7
 Tested up to: 3.4
-Stable tag: 0.1
+Stable tag: 0.2
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WCRMFYTNCJRAU
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
@@ -23,6 +23,13 @@ The plugin is a Wikipedia plugin, for setting links to Wikipedia articles. The l
 
 
 == Changelog == 
+
+= 0.2 =
+
+* full redesign with PHP namespaces and classes
+* change source structure to the full Wordpress Codex
+* renaming language namespace
+
 
 = 0.1 =
 
