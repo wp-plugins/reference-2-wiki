@@ -31,13 +31,13 @@ class menu {
         register_setting( "fpx_reference2wiki_option",      "fpx_reference2wiki_option",                        get_class()."::validate" );
         
         
-        add_settings_section("fpx_reference2wiki_option",           __("usage", "fpx_reference2wiki_option"),               get_class()."::renderInfo",               "fpx_reference2wiki_option");
+        add_settings_section("fpx_reference2wiki_option",           __("usage",  "fpx_refence2wiki"),               get_class()."::renderInfo",               "fpx_reference2wiki_option");
 		
-        add_settings_field("fpx_reference2wiki_defaultlanguage",    __("default language", "fpx_reference2wiki_option"),    get_class()."::render_defaultlanguage",   "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
-       add_settings_field("fpx_reference2wiki_htmltarget",         __("html target (open a new browser window)", "fpx_reference2wiki_option"),         get_class()."::render_htmltarget",        "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
-        add_settings_field("fpx_reference2wiki_cssclass",           __("css class (is added to the href-tag)", "fpx_reference2wiki_option"),           get_class()."::render_cssclass",          "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
-        add_settings_field("fpx_reference2wiki_beforetext",         __("text before link (text that is added in front of the href-tag)", "fpx_reference2wiki_option"),    get_class()."::render_beforetext",        "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
-        add_settings_field("fpx_reference2wiki_aftertext",          __("text after link (text that is added behind the href-tag)", "fpx_reference2wiki_option"),     get_class()."::render_aftertext",         "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
+        add_settings_field("fpx_reference2wiki_defaultlanguage",    __("default language",  "fpx_refence2wiki"),    get_class()."::render_defaultlanguage",   "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
+       add_settings_field("fpx_reference2wiki_htmltarget",         __("html target (open a new browser window)",  "fpx_refence2wiki"),         get_class()."::render_htmltarget",        "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
+        add_settings_field("fpx_reference2wiki_cssclass",           __("css class (is added to the href-tag)",  "fpx_refence2wiki"),           get_class()."::render_cssclass",          "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
+        add_settings_field("fpx_reference2wiki_beforetext",         __("text before link (text that is added in front of the href-tag)",  "fpx_refence2wiki"),    get_class()."::render_beforetext",        "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
+        add_settings_field("fpx_reference2wiki_aftertext",          __("text after link (text that is added behind the href-tag)",  "fpx_refence2wiki"),     get_class()."::render_aftertext",         "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
     }
     
     /** renders the option panel **/
