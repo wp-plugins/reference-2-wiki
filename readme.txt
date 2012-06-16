@@ -3,7 +3,7 @@ Contributors: flashpixx
 Tags: wikipedia, reference, link, wiki
 Requires at least: 2.7
 Tested up to: 3.4
-Stable tag: 0.2
+Stable tag: 0.21
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WCRMFYTNCJRAU
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
@@ -23,6 +23,10 @@ The plugin is a Wikipedia plugin, for setting links to Wikipedia articles. The l
 
 
 == Changelog == 
+
+= 0.21 =
+
+* fixing language bugs
 
 = 0.2 =
 
