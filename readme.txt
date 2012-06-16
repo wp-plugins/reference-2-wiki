@@ -24,6 +24,13 @@ The plugin is a Wikipedia plugin, for setting links to Wikipedia articles. The l
 
 == Changelog == 
 
+= 0.2 =
+
+* full redesign with PHP namespaces and classes
+* change source structure to the full Wordpress Codex
+* renaming language namespace
+
+
 = 0.1 =
 
 * add multilanguage support (english, german)
