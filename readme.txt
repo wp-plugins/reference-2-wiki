@@ -3,23 +3,44 @@ Contributors: flashpixx
 Tags: wikipedia, reference, link, wiki
 Requires at least: 2.7
 Tested up to: 3.4
-Stable tag: 0.2
+Stable tag: 0.21
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WCRMFYTNCJRAU
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 
+
 Creates links to Wikipedia with different languages
+
 
 == Description ==
 
 The plugin is a Wikipedia plugin, for setting links to Wikipedia articles. The language and the description for every link can be set individually.
 
+
 == Installation ==
 
 1.  Upload the folder to the "/wp-content/plugins/" directory
 2.  Activate the plugin through the 'Plugins' menu in WordPress
-3.  Use in your content the tag [[search tag]] (other options see at the plugin admin panel).
 
+
+== Frequently Asked Questions ==
+
+= How can I use the plugin ? =
+Add to your content of a page or article <pre>[[search tag]]</pre>
+Another way for using the Wikipedia call, is to use the additional syntax
+<pre>[[ article | view ]]</pre> creates a link to the article and within the content the view text is shown
+<pre>[[ language | article | view ]]</pre> creates a link to the article with the language and within the content the view text is shown
+
+= Does the plugin need any requirements ? =
+The underlaying object-orientated structure of the plugin uses the PHP namespaces, which added in the PHP version 5.3.0.
+So the plugin needs a PHP version equal or newer than PHP 5.3.0
+
+
+== Upgrade Notice ==
+
+= 0.2 =
+On this version the underlaying object-oriantated structure of the plugin uses the PHP namespaces, which added in the PHP version
+5.3.0. So the plugin needs a PHP version equal or newer than PHP 5.3.0
 
 
 == Changelog == 
