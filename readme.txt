@@ -39,7 +39,7 @@ So the plugin needs a PHP version equal or newer than PHP 5.3.0
 == Upgrade Notice ==
 
 = 0.2 =
-On this version the underlaying object-oriantated structure of the plugin uses the PHP namespaces, which added in the PHP version
+On this version the underlaying object-orientated structure of the plugin uses the PHP namespaces, which added in the PHP version
 5.3.0. So the plugin needs a PHP version equal or newer than PHP 5.3.0
 
 
