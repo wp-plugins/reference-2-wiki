@@ -31,6 +31,9 @@ Another way for using the Wikipedia call, is to use the additional syntax
 <pre>[[ article | view ]]</pre> creates a link to the article and within the content the view text is shown
 <pre>[[ language | article | view ]]</pre> creates a link to the article with the language and within the content the view text is shown
 
+= Which language code is supported ? =
+All languages, which are show on the <a href="http://www.wikipedia.org/">Wikipedia</a> site, are supported.
+
 = Does the plugin need any requirements ? =
 The underlaying object-orientated structure of the plugin uses the PHP namespaces, which added in the PHP version 5.3.0.
 So the plugin needs a PHP version equal or newer than PHP 5.3.0
@@ -51,7 +54,7 @@ On this version the underlaying object-orientated structure of the plugin uses t
 
 = 0.2 =
 
-* full redesign with PHP namespaces and classes
+* full redesign with PHP namespaces and classes (supports with PHP 5.3.0)
 * change source structure to the full Wordpress Codex
 * renaming language namespace
 
