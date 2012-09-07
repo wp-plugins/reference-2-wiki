@@ -23,13 +23,20 @@ The plugin is a Wikipedia plugin, for setting links to Wikipedia articles. The l
 2.  Activate the plugin through the 'Plugins' menu in WordPress
 
 
-== Frequently Asked Questions ==
+== Requirements ==
 
-= How can I use the plugin ? =
+* Wordpress 3.2 or newer
+* PHP 5.3.0 or newer 
+
+
+== Shortcode ==
 Add to your content of a page or article <pre>[[search tag]]</pre>
 Another way for using the Wikipedia call, is to use the additional syntax
 <pre>[[ article | view ]]</pre> creates a link to the article and within the content the view text is shown
 <pre>[[ language | article | view ]]</pre> creates a link to the article with the language and within the content the view text is shown
+
+
+== Frequently Asked Questions ==
 
 = Which language code is supported ? =
 All languages, which are show on the <a href="http://www.wikipedia.org/">Wikipedia</a> site, are supported.
