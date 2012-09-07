@@ -30,24 +30,34 @@ Version: 0.21
     
 namespace de\flashpixx\reference2wiki;
     
+// ==== constant for developing with the correct path of the plugin ================================================================================
+//define(__NAMESPACE__."\LOCALPLUGINFILE", __FILE__);
+define(__NAMESPACE__."\LOCALPLUGINFILE", WP_PLUGIN_DIR."/reference-2-wiki/".basename(__FILE__));
+// =================================================================================================================================================
+    
+    
+    
+// ==== plugin initialization ======================================================================================================================
 @require_once("filter.class.php");
 @require_once("menu.class.php");
     
-
 // stop direct call
-if (preg_match("#" . basename(__FILE__) . "#", $_SERVER["PHP_SELF"])) { die("You are not allowed to call this page directly."); }
+if (preg_match("#" . basename(LOCALPLUGINFILE) . "#", $_SERVER["PHP_SELF"])) { die("You are not allowed to call this page directly."); }
     
 // translation
 if (function_exists("load_plugin_textdomain"))
-    load_plugin_textdomain("fpx_refence2wiki", false, dirname(plugin_basename(__FILE__))."/lang");
-
+    load_plugin_textdomain("fpx_refence2wiki", false, dirname(plugin_basename(LOCALPLUGINFILE))."/lang");
+// =================================================================================================================================================  
+    
+    
+    
 // ==== create Wordpress Hooks =====================================================================================================================
 add_filter("the_content", "de\\flashpixx\\reference2wiki\\filter::run");
 add_action("admin_init", "de\\flashpixx\\reference2wiki\\menu::settings");
 add_action("admin_menu", "de\\flashpixx\\reference2wiki\\menu");
 
-register_activation_hook(__FILE__, "de\\flashpixx\\reference2wiki\\install");
-register_uninstall_hook(__FILE__, "de\\flashpixx\\reference2wiki\\uninstall");
+register_activation_hook(LOCALPLUGINFILE, "de\\flashpixx\\reference2wiki\\install");
+register_uninstall_hook(LOCALPLUGINFILE, "de\\flashpixx\\reference2wiki\\uninstall");
 // =================================================================================================================================================
     
 
