@@ -2,7 +2,7 @@
 Contributors: flashpixx
 Tags: wikipedia, reference, link, wiki
 Requires at least: 3.2
-Tested up to: 3.4.1
+Tested up to: 3.4.2
 Stable tag: 0.21
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WCRMFYTNCJRAU
 License: GPLv3 or later
@@ -40,10 +40,6 @@ Another way for using the Wikipedia call, is to use the additional syntax
 
 = Which language code is supported ? =
 All languages, which are show on the <a href="http://www.wikipedia.org/">Wikipedia</a> site, are supported.
-
-= Does the plugin need any requirements ? =
-The underlaying object-orientated structure of the plugin uses the PHP namespaces, which added in the PHP version 5.3.0.
-So the plugin needs a PHP version equal or newer than PHP 5.3.0
 
 
 == Upgrade Notice ==
