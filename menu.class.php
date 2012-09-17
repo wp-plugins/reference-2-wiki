@@ -31,18 +31,18 @@ class menu {
         register_setting( "fpx_reference2wiki_option",      "fpx_reference2wiki_option",                        get_class()."::validate" );
         
         
-        add_settings_section("fpx_reference2wiki_option",           __("usage",  "fpx_refence2wiki"),               get_class()."::renderInfo",               "fpx_reference2wiki_option");
+        add_settings_section("fpx_reference2wiki_option",           __("usage",  "reference-2-wiki"),               get_class()."::renderInfo",               "fpx_reference2wiki_option");
 		
-        add_settings_field("fpx_reference2wiki_defaultlanguage",    __("default language",  "fpx_refence2wiki"),    get_class()."::render_defaultlanguage",   "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
-       add_settings_field("fpx_reference2wiki_htmltarget",         __("html target (open a new browser window)",  "fpx_refence2wiki"),         get_class()."::render_htmltarget",        "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
-        add_settings_field("fpx_reference2wiki_cssclass",           __("css class (is added to the href-tag)",  "fpx_refence2wiki"),           get_class()."::render_cssclass",          "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
-        add_settings_field("fpx_reference2wiki_beforetext",         __("text before link (text that is added in front of the href-tag)",  "fpx_refence2wiki"),    get_class()."::render_beforetext",        "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
-        add_settings_field("fpx_reference2wiki_aftertext",          __("text after link (text that is added behind the href-tag)",  "fpx_refence2wiki"),     get_class()."::render_aftertext",         "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
+        add_settings_field("fpx_reference2wiki_defaultlanguage",    __("default language",  "reference-2-wiki"),    get_class()."::render_defaultlanguage",   "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
+       add_settings_field("fpx_reference2wiki_htmltarget",         __("html target (open a new browser window)",  "reference-2-wiki"),         get_class()."::render_htmltarget",        "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
+        add_settings_field("fpx_reference2wiki_cssclass",           __("css class (is added to the href-tag)",  "reference-2-wiki"),           get_class()."::render_cssclass",          "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
+        add_settings_field("fpx_reference2wiki_beforetext",         __("text before link (text that is added in front of the href-tag)",  "reference-2-wiki"),    get_class()."::render_beforetext",        "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
+        add_settings_field("fpx_reference2wiki_aftertext",          __("text after link (text that is added behind the href-tag)",  "reference-2-wiki"),     get_class()."::render_aftertext",         "fpx_reference2wiki_option",    "fpx_reference2wiki_option");
     }
     
     /** renders the option panel **/
     static function render() {
-        echo "<div class=\"wrap\" id=\"fpx_reference2wiki\"><h2>Reference-2-Wiki ".__("Configuration", "fpx_refence2wiki")."</h2>\n";
+        echo "<div class=\"wrap\" id=\"fpx_reference2wiki\"><h2>Reference-2-Wiki ".__("Configuration", "reference-2-wiki")."</h2>\n";
         
         echo "<form method=\"post\" action=\"options.php\">";
         settings_fields("fpx_reference2wiki_option");
@@ -53,12 +53,12 @@ class menu {
     
     /** info text of the option page **/
     static function renderInfo() {
-        echo __("You can setup the reference to Wikipedia with the commands:", "fpx_refence2wiki");
+        echo __("You can setup the reference to Wikipedia with the commands:", "reference-2-wiki");
         echo "<ul>";
-        echo "<li><strong>[[</strong> ".__("article", "fpx_refence2wiki")." <strong>]]</strong> ".__("creates a link to the article with the default options", "fpx_refence2wiki")."</li>";
-        echo "<li><strong>[[</strong> ".__("article", "fpx_refence2wiki")."<strong> | </strong>".__("view", "fpx_refence2wiki")." <strong>]]</strong> ".__("creates a link to the article and within the content the view text is shown", "fpx_refence2wiki")."</li>";
-                echo "<li><strong>[[</strong> ".__("language", "fpx_refence2wiki")." <strong> | </strong> ".__("article", "fpx_refence2wiki")."<strong> | </strong>".__("view", "fpx_refence2wiki")." <strong>]]</strong> ".__("creates a link to the article with the language and within the content the view text is shown", "fpx_refence2wiki")."</li>";
-        echo "</ul>".__("The language is in the two typical abbreviations such as en, de, fr, etc. specified. All options are optional except the article.", "fpx_refence2wiki");
+        echo "<li><strong>[[</strong> ".__("article", "reference-2-wiki")." <strong>]]</strong> ".__("creates a link to the article with the default options", "reference-2-wiki")."</li>";
+        echo "<li><strong>[[</strong> ".__("article", "reference-2-wiki")."<strong> | </strong>".__("view", "reference-2-wiki")." <strong>]]</strong> ".__("creates a link to the article and within the content the view text is shown", "reference-2-wiki")."</li>";
+                echo "<li><strong>[[</strong> ".__("language", "reference-2-wiki")." <strong> | </strong> ".__("article", "reference-2-wiki")."<strong> | </strong>".__("view", "reference-2-wiki")." <strong>]]</strong> ".__("creates a link to the article with the language and within the content the view text is shown", "reference-2-wiki")."</li>";
+        echo "</ul>".__("The language is in the two typical abbreviations such as en, de, fr, etc. specified. All options are optional except the article.", "reference-2-wiki");
         echo "<hr width=\"100%\" /><br/>";
     }
     
@@ -127,8 +127,8 @@ class menu {
         $laOptions = get_option("fpx_reference2wiki_option");
         
         echo "<select name=\"fpx_reference2wiki_option[target]\">\n";
-        echo "<option value=\"\">".__("same window", "fpx_refence2wiki")."</option>\n";
-        echo "<option value=\"_blank\" ".(($laOptions["target"] == "_blank") ? "selected": null).">".__("new window / tab", "fpx_refence2wiki")."</option>\n";
+        echo "<option value=\"\">".__("same window", "reference-2-wiki")."</option>\n";
+        echo "<option value=\"_blank\" ".(($laOptions["target"] == "_blank") ? "selected": null).">".__("new window / tab", "reference-2-wiki")."</option>\n";
         echo "</select>\n";	
     }
     

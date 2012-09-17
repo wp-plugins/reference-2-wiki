@@ -46,7 +46,7 @@ if (preg_match("#" . basename(LOCALPLUGINFILE) . "#", $_SERVER["PHP_SELF"])) { d
     
 // translation
 if (function_exists("load_plugin_textdomain"))
-    load_plugin_textdomain("fpx_refence2wiki", false, dirname(plugin_basename(LOCALPLUGINFILE))."/lang");
+    load_plugin_textdomain("reference-2-wiki", false, dirname(plugin_basename(LOCALPLUGINFILE))."/lang");
 // =================================================================================================================================================  
     
     

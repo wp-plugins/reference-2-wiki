@@ -51,6 +51,10 @@ On this version the underlaying object-orientated structure of the plugin uses t
 
 == Changelog == 
 
+= 0.22 =
+
+* change language domain to "reference-2-wiki"
+
 = 0.21 =
 
 * fixing language bugs
